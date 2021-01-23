@@ -8,4 +8,6 @@ module.exports = {
     "transformIgnorePatterns": [
         "node_modules/(?!(@babel)/)"
     ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
 }
